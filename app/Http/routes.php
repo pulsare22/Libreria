@@ -7,10 +7,30 @@ Route::get('/', function () {
 	//return "Usando Git";
 });
 
-Route::post('/form','ambientesController@show');
+
+
+Route::post('/form','ambientesController@store');
 
 //Controlador
 Route::get('/controller','ambientesController@index');
+
+
+Route::get('/index', function(){
+	return view ('index');
+});
+
+
+//Rutas del proyecto en clases 
+Route::get('/pagina', function(){
+	return view ('website.pagina');
+});
+
+Route::get('/tienda', function () {
+   return view('website.tienda');
+	//return "Usando Git";
+});
+
+
 
 
 
@@ -22,3 +42,4 @@ else{
 	return "no valido";
 }
 });*/
+

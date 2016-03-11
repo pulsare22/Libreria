@@ -1,0 +1,47 @@
+.button-collapse, .brand-logo{
+	margin-left: 20px;
+}
+
+
+
+/*
+selectores css3
+clases  "."
+id		"#"
+etiqueras "tag"
+*/
+#slider-libreria, #section2{
+	margin-top: 30px;
+}
+
+
+
+.slider .indicators .indicator-item {
+  background-color:  #ffffff;
+   
+}
+.slider .indicators .indicator-item.active {
+  background-color: #1565c0;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
+
+p{
+	text-align: justify;
+	font-style: italic;
+	font-size: 14px;
+}
+
+h5{
+	text-align: justify;
+	font-size: 20px;
+}
+#h3{
+}
+.btn-social{
+	margin-left: 20px;
+
+}
